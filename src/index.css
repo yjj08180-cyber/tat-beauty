@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  /* D'AUYO Brand Color System */
+  --color-porcelain: #FAFAFA;
+  --color-charcoal: #1A1A1A;
+  --color-ash: #8C8780;
+  --color-bisque: #F5F0E8;
+  --color-amber: #C4A574;
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
